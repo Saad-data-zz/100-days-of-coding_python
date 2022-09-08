@@ -11,7 +11,9 @@ my_label = tkinter.Label(text="my first label Saad", font=("arial", 28, "bold"))
 
 #calling the function of diplay our text on screen
 my_label.pack()
-
+#if you liek to put the new text on the label
+my_label["text"] = "New Text"
+my_label.config(text="New Text")
 
 #to keep the screen on we'll use
 window.mainloop()
